@@ -2,13 +2,15 @@
     padding: 0px;
     margin: 0px;
 }
-div{
-    display: inline;
-    float:left;
+menu ul{
+    list-style-type: none;
+    background-color: gray;
 }
-nav{
-    display: inline;
-    float: left;
+menu li{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: inline-block;
+    padding: 10px;
 }
 
 header{
