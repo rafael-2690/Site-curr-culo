@@ -2,6 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
+div{
+    display: inline;
+    float:left;
+}
+nav{
+    display: inline;
+    float: left;
+}
 
 header{
     background-color: aqua;
