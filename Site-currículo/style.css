@@ -2,6 +2,32 @@
     padding: 0px;
     margin: 0px;
 }
+.hp{
+    --progress:50;
+    height: 50px;
+    padding: 5px;
+    background-color: #ccc;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    display: flex;
+  }
+  
+  .hp::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: calc(var(--progress) * 1%);
+    background-color: red;
+  }
+/*
+  
 menu{
     background-color: gray;
     width: 100%;
@@ -26,3 +52,4 @@ header{
     background-color: aqua;
     display: inline;
 }
+*/
