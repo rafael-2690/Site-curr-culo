@@ -2,31 +2,40 @@
     padding: 0px;
     margin: 0px;
 }
+div#fe{
+  float: left;
+  padding-left: 100px;
+}
+div#be{
+  float: right;
+  padding-right: 100px;
+}
 .hp{
-    --progress:50;
-    height: 50px;
-    padding: 5px;
-    background-color: #ccc;
-    /* pseudo-elementos precisam de um
-      conteúdo para terem altura.
-      Como não teremos conteúdo no nosso
-      pseudo-elemento, utilizar
-      "display: flex" o força a
-      ter a altura do elemento pai.
-      */
-    display: flex;
-  }
-  
-  .hp::before{
+  --progress: 50;
+  width: 420px;
+  height: 15px;
+  padding: 2px;
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.hp::before{
     content: "";
-    /* Por enquanto colocamos
-      uma largura e uma cor
-      com valores fixos
-      */
     width: calc(var(--progress) * 1%);
-    background-color: red;
+    background-image: linear-gradient(to right, #2e1065,#1e1b4b,#4a044e);
+    /*background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);*/
+    transition: all 0.2s ease;
   }
-/*
+
+#java-script{
+  --progress:90;
+}
+  
+
+
   
 menu{
     background-color: gray;
@@ -37,7 +46,7 @@ menu ul{
     list-style-type: none;
 }
 main{
-    background-color: rgb(41, 146, 179);
+    background-color: rgb(92, 92, 92);
     height: 1000px;
 }
 menu li{
@@ -52,4 +61,3 @@ header{
     background-color: aqua;
     display: inline;
 }
-*/
