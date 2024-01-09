@@ -5,13 +5,56 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+  background-color: var(--corFundo);
+  width: 100%;
+  margin: auto;
+  color: white
+}
+main{
+  width: 1200px;
+  height: 895px;
+  background-color: red;
+  margin: auto;
+  background-color: var(--corFundo);
+}
+h2{
+  display:inline-block;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#subtitulo{
+  display: inline-block;
+  color: rgba(128, 128, 128, 0.795);
+}
+a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
+.pagina{
+  margin-left: 10px;
+  float: right;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  width: 100px;
+  background-color:#2e1065;
+}
+
+
+
+
+/*
 div#fe{
   float: left;
-  padding-left: 100px;
+  padding-left: 400px;
 }
 div#be{
   float: right;
-  padding-right: 100px;
+  padding-right: 400px;
 }
 .hp{
   --progress: 50;
@@ -36,11 +79,7 @@ div#be{
 #java-script{
   --progress:90;
 }
-body{
-    background-color: var(--corFundo);
-    height: 1000px;
-    color: white
-}
+
 .bloquinhos{
   margin-left: 1px;
   display: inline-block;
@@ -54,7 +93,8 @@ h5{
   padding-right: 10px;
 }
 #caixas{
-  padding-left: 500px;
+  text-align: center;
+  padding-left: 770px;
 }
 h3{
   text-align: center;
@@ -66,4 +106,6 @@ h3{
   width: 12px;
   background-image: linear-gradient(to right, #1e1b4b,#4a044e);
 }
+*/
+
 
