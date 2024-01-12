@@ -2,16 +2,20 @@
   --corFundo: #030712;
 }
 *{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
 }
 body{
   background-color: var(--corFundo);
   width: 100%;
-  height: 1370px;
+  height: 1470px;
   margin: auto;
   color: white
 }
+
+/*Cabeçalho da página:*/ 
+
 header{
   padding-top: 40px;
   padding-bottom: 30px;
@@ -34,6 +38,9 @@ header>p{
   width: 100px;
   background-color:#2e1065;
 }
+
+/*Corpo da página:*/
+
 main{
   width: 1190px;
   height: 895px;
@@ -57,13 +64,15 @@ a{
   text-align: center;
   margin: auto;
 }
-#links>a{
+#links>a>img{
   border-radius: 10px;
+  margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: rgb(95, 2, 95);
-  width: 70px;
-  color: gray;
+  width: 60px;
+}
+#github{
+  background-color: rgba(71, 69, 69, 0.527);
 }
 #caixas{
   border-radius: 8px;
@@ -133,9 +142,30 @@ h4{
     width: calc(var(--progress) * 1%);
     background-image: linear-gradient(to right, #2e1065,#1e1b4b,#4a044e);
     border-radius: 10px;
-  }
+}
+#phyton{
+  --progress:10;
+}
+#php{
+  --progress:30;
+}
+#java{
+  --progress:70;
+}
+#Wordpress{
+  --progress:30;
+}
+#java-script{
+  --progress:80;
+}
+#htmlCss{
+  --progress:92;
+}
+
+/*Rodapé da página:*/
+
 footer{
-  margin-top: 190px;
+  margin-top: 290px;
   text-align: center;
 }
 footer>p{
