@@ -21,43 +21,12 @@ body{
 
 header{
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   width: 1190px;
   margin: auto;
 }
-header>img{
-  width: 70px;
-  display: inline;
-}
-header>p{
-  display: inline;
-}
-.pagina{
-  margin-left: 10px;
+#links{
   float: right;
-  height: 30px;
-  border-radius: 10px;
-  display: flex;
-  width: 100px;
-  background-color: var(--corRoxa);
-} 
-
-/*Corpo da página:*/
-
-main{
-  width: 1190px;
-  height: 895px;
-  margin: auto;
-  background-color: var(--corFundo);
-}
-h2{
-  display:inline-block;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#subtitulo{
-  display: inline-block;
-  color: rgba(128, 128, 128, 0.795);
 }
 a{
   text-decoration: none;
@@ -67,14 +36,51 @@ a{
   margin: auto;
 }
 #links>a>img{
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 60px;
+  margin-top: 30px;
+  width: 25px;
+  padding-left: 15px;
 }
-#github{
-  background-color: rgba(71, 69, 69, 0.527);
+header>img{
+  width: 68px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+header>p{
+  display: block;
+}
+
+/*Corpo da página:*/
+
+main{
+  width: 1190px;
+  height: 895px;
+  margin: auto;
+  background-color: var(--corFundo);
+}
+#segParagrafo{
+  display: inline-block;
+}
+h2{
+  display:inline-block;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+#subtitulo{
+  display: inline-flex;
+  color: rgba(128, 128, 128, 0.795);
+  padding-bottom: 40px;
+}
+.pagina{
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 8px 14px;
+  float: right;
+  height: 27px;
+  border-radius: 10px;
+  display:inline-flex;
+  width: 130px;
+  background-color: var(--corRoxa);
 }
 #caixas{
   border-radius: 8px;
@@ -110,6 +116,7 @@ h5{
   background-color: var(--corRoxa);
 }
 h3{
+  display: block;
   font-size: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -177,7 +184,7 @@ h4{
 /*Rodapé da página:*/
 
 footer{
-  margin-top: 290px;
+  margin-top: 130px;
   text-align: center;
 }
 footer>p{
