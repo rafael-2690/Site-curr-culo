@@ -25,6 +25,15 @@ header{
   width: 1190px;
   margin: auto;
 }
+#bolinha{
+  position: absolute;
+  width: 796px;
+  height: 796px;
+  left: 701px;
+  top: -214px;
+  background: rgba(124, 58, 237, 0.05);
+  filter: blur(213.85px);
+}
 #links{
   float: right;
 }
@@ -36,9 +45,15 @@ a{
   margin: auto;
 }
 #links>a>img{
+  padding: 4px;
+  box-sizing: border-box;
   margin-top: 30px;
-  width: 25px;
-  padding-left: 15px;
+  width: 28px;
+  height: 28px;
+  margin-left: 15px;
+  border: 1px solid rgba(213, 187, 255, 0.24);
+  filter: drop-shadow(0px 0px 28.2px rgba(139, 92, 246, 0.24));
+  border-radius: 6px;
 }
 header>img{
   width: 68px;
@@ -72,15 +87,33 @@ h2{
   padding-bottom: 40px;
 }
 .pagina{
-  margin-left: 10px;
-  font-size: 18px;
-  padding: 8px 14px;
+  position: relative;
   float: right;
-  height: 27px;
-  border-radius: 10px;
-  display:inline-flex;
-  width: 130px;
-  background-color: var(--corRoxa);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  width: 136px;
+  height: 30px;
+  background: linear-gradient(180deg, #7C3AED 0%, #5B21B6 100%);
+  border: 1px solid #8B5CF6;
+  box-shadow: 0px 0px 28.2px rgba(139, 92, 246, 0.24);
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.pagina:hover{
+  width: 126px;
+  height: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  transition: 0.5s;
+  color: #F4F4F5
 }
 #caixas{
   border-radius: 8px;
@@ -90,6 +123,7 @@ h2{
   margin: auto;
   text-align: justify;
   padding-left: 10px;
+  border: 1px solid #28282b91;
 }
 h5{
   font-size: 15px;
@@ -98,22 +132,25 @@ h5{
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
+  padding-right: 10px;
 }
 .bloquinhos{
   border-radius: 2px;
   margin-left: 1px;
   display: inline-block;
-  height: 12px;
-  width: 12px;
+  height: 11px;
+  width: 11px;
   background-color: var(--corFundoCinza2);
+  border: 1px solid #28282b91;
 }
 .bloquinhos-coloridos{
   border-radius: 2px;
   margin-left: 1px;
   display: inline-block;
-  height: 12px;
-  width: 12px;
+  height: 11px;
+  width: 11px;
   background-color: var(--corRoxa);
+  border: 1px solid #28282b91;
 }
 h3{
   display: block;
@@ -130,6 +167,7 @@ div#fe{
   width: 550px;
   height: 284px;
   float: right;
+  border: 1px solid #28282b91;
 }
 div#be{
   margin-top: 10px;
@@ -140,9 +178,13 @@ div#be{
   width: 550px;
   height: 284px;
   float: left;
+  border: 1px solid #28282b91;
 }
 h4{
   font-size: 17px;
+}
+.t1{
+  padding-left: 0px;
 }
 .hp{
   --progress: 50;
