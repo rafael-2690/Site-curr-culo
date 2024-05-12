@@ -7,4 +7,7 @@
 
  ### Segue abaixo o link de dessa site:
 
-[Site-Currículo.](rafael-2690.github.io) **(Não funciona no momento)**
+Link para vizualizar o site: 
+
+
+[Site-Currículo.](https://rafael-2690.github.io/Site-curr-culo/)
